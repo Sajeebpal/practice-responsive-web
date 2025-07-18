@@ -208,6 +208,14 @@
     .banner-content{
         margin: 20px 0;
     }
+    .banner-img{
+        padding: 20px;
+        width: calc( 100% - 40px);
+    }
+
+    .banner-description{
+        font-size: .7rem;
+    }
     
     .feature{
         padding: 30px;
@@ -267,7 +275,10 @@
 }
 
 @media screen and (min-width: 576.1px) and (max-width: 992px){
-
+    .banner-img{
+        padding: 30px;
+        width: calc( 100% - 60px);
+    }
     .nav-cotainer{
         padding: 0 40px;
     }
