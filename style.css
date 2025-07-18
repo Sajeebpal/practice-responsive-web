@@ -204,15 +204,20 @@
         flex-direction: column;
         /* justify-content: center; */
     }
+
+    .banner-content{
+        margin: 20px 0;
+    }
     
     .feature{
         padding: 30px;
         gap: 30px;
+        margin: 0;
         max-width: 80vmax;
     }
 
     .company-tittle{
-        padding: 20px 0;
+        padding: 10px 0 0 0;
     }
     .quick-access{
         text-align: center;
@@ -231,8 +236,10 @@
         font-size: 2.5rem;
     }
     .banner-tittle{
+        margin-top: 0;
+        /* margin: ; */
         /* padding: 10px; */
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .feature-head{
         width: auto;
@@ -241,6 +248,8 @@
     .feature-option{
         flex-direction: column;
         gap: 50px;
+        margin: 40px 0;
+        padding: 15px;
     }
     .btn-experience{
         padding: 20PX;
@@ -273,13 +282,14 @@
     .feature-option{
         flex-direction: column;
         gap: 50px;
+        padding: 0 30px;
     }
     .feature-head{
         margin-left: 20px;
     }
     .btn-experience{
         padding: 40px;
-        margin: -60px 0;
+        margin: -80px 0;
     }
     #amazing-year{
         font-size: 2.5rem;
