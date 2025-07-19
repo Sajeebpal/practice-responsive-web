@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 .work-sans-font {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
@@ -6,7 +9,7 @@
 }
 
 /* Shared styles */
-.flex{
+.flex {
     display: flex;
 }
 
@@ -74,7 +77,7 @@
 .banner-description{
     font-size: 1rem;
     color: #424242;
-    margin-bottom: 30px;
+    margin: 30px 0;
 }
 
 .banner-content{
@@ -126,7 +129,7 @@
 .feature-des{
     color: #727272;
     font-size: 1rem;
-    margin-bottom: 2rem;
+    margin: 1.8rem 0;
     max-width: 560px;
 }
 
