@@ -177,7 +177,7 @@
 }
 #amazing-experience{
     font-size: 1.5rem;
-    font-weight: 550;
+    font-weight: 500;
     margin: 0;
 }
 .btn-experience{
@@ -208,11 +208,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     border: 2px solid #fd8a06;
     width: 240px;
     height: 240px;
     margin: 0 auto;
-    text-align: center;
 }
 
 .achievement img{
@@ -278,8 +278,13 @@
     .quick-access{
         text-align: center;
         gap: 1.2rem;
-        padding: 0;
+        padding: 10px 0;
+        
     }
+    .quick-access li a{
+        font-size: 15px;
+    }
+
 
     .feature-img-container{
         gap: 15px;
